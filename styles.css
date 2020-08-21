@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(250, 132, 10);
+    margin: 15px 45px 15px 25px;
+    font-family: "Handlee";
+    letter-spacing: 3px;
+    color: purple;
+    font-size: 1.5rem;
+    text-shadow: 0.5px 0.5px aqua;
+}
+h1 {
+    color: purple;
+    text-decoration: underline;
+    font-size: 1.7rem;
+    text-shadow: 1px 1px aqua;
+    text-align: center;
+}
+#pic1, #pic2, #pic3 {
+    width: 40%;
+    height: auto;
+    margin: 15px 30% 15px 30%;
+    border: 2px aqua solid;
+    outline: 1px purple solid;
+}
+#a1, #b1, #c1 {
+    width: 15%;
+    height: 60px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px purple solid;
+    background-color: aqua;
+    color: purple;
+    font-family: "Handlee";
+}
+#myBtn, #myBtn2, #myBtn3, #myBtn4 {
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: purple;
+    border: 1px purple solid;
+    margin: 15px 35% 0px 35%;
+    background-color: aqua;
+    font-family: "Handlee"; 
+}
+#demo, #demo2, #demo3, #demo4 {
+    width: 30%;
+    height: 45px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: purple;
+    background-color: aqua;
+    border: 1px purple solid;
+    margin: 0px 35% 15px 35%;
+    font-family: "Handlee";
+    padding: 15px 15px 15px 15px;
+}
+#d1, #e1, #f1, #g1 {
+    width: 15%;
+    height: 60px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px purple solid;
+    background-color: aqua;
+    color: purple;
+    font-family: "Handlee";
+}
+#h1, #i1, #j1, #k1 {
+    width: 15%;
+    height: 60px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px purple solid;
+    background-color: aqua;
+    color: purple;
+    font-family: "Handlee";
+}
+#l1, #m1, #n1 {
+    width: 15%;
+    height: 60px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px purple solid;
+    background-color: aqua;
+    color: purple;
+    font-family: "Handlee";
+}
+footer {
+    text-align: center;
+    font-size: 1rem;
+}

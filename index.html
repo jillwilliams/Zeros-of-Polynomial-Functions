@@ -1,0 +1,136 @@
+<DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" 
+    Unicode="U+1F334, UTF-8: F0 9F 8C B4" 
+    Unicode= "U+1F332, UTF-8: F0 9F 8C B2" 
+    Unicode= "U+00A9"  
+    Unicode="U+00A9, UTF-8: C2 A9" 
+    Unicode="U+1F440, UTF-8: F0 9F 91 80"
+    Unicode="U+00F7, UTF-8: C3 B7"
+    Unicode="U+30FB, UTF-8: E3 83 BB"
+    Unicode="U+03B8, UTF-8: CE B8"
+    Unicode="U+22C5, UTF-8: E2 8B 85"
+    Unicode="U+21D2, UTF-8: E2 87 92">
+    <title>Zeros of Polynomial Functions</title>
+    <link HREF="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Pangolin|Shadows+Into+Light|Fresca|Architects+Daughter|Amatic+SC|Caveat|Patrick+Hand|Kalam|Handlee|" rel="stylesheet">
+    <link rel="stylesheet" HREF="./styles.css">
+    <meta name="description" content="Polynomial Functions">
+    <meta name="keywords" content="Zeros of a function">
+    <meta name="author" content="JK Williams">
+</head>
+<body>
+    <h1>
+        Zeros of a Polynomial Function<hr>
+    </h1>
+    <p>
+        In this module we will cover how to locate the zeros of a Polynomial Function when given the equation of the polynomial.<hr>
+    </p>
+    <p>
+        Prior to starting this module it is recommended that you review the Factoring Polynomials Module. 
+        <a HREF=" https://jillwilliams.github.io/Factoring-Polynomials"/>Factoring Polynomials</a><hr>
+    </p>
+    <p>
+        The Zeros of a polynomial are the locations where the graph crosses the x-axis. A function can cross many times or only a few times, depending on its equation. The zeros of a polynomial are written as factors (x - b) where b is the x-intercepts of the function. A function with many factors takes the form f(x) = (x - b<sub>1</sub>)(x - b<sub>2</sub>)(x - b<sub>3</sub>)(x - b<sub>4</sub>) and so on.<hr>
+    </p>
+    <p>
+        Rule: Multiplicative Property of Zero<br>
+        If a ⋅ b ⋅ c = 0, then either a = 0, b = 0, or c =  0<hr>
+    </p>
+    <p>
+        This rule is applied to a polynomial function so that we can calculate the zeros of the function when given the equation.<hr>
+    </p>
+    <p>
+        For example: Find the zeros of the function.<br>
+        f(x) = (x - 5)(x - 2)(x + 3)<br>
+        Using the rule, we re-write each factor equal to zero, then solve the equation for x.<br>
+        Solution:<br>
+        x - 5 = 0 ⇒ x = 5<br>
+        x - 2 = 0 ⇒ x = 2<br>
+        x + 3 = 0 ⇒ x = -3<br>
+        The x-intercepts are at 5, 2, and -3. Using this info we can make a rough draft sketch of the polynomial, shown below:<br>
+        <img src="images/pic1.png" alt="ex 1" id="pic1" /><hr>
+    </p>
+    <p>
+        Example 2: Find the zeros of the function.<br>
+        f(x) = (x - 2)(x + 1)(x + 3)(x - 4)<br>
+        Using the rule, we re-write each factor equal to zero, then solve the equation for x.<br>
+        Solution:<br>
+        x - 2 = 0 ⇒ x = 2<br>
+        x + 1 = 0 ⇒ x = -1<br>
+        x + 3 = 0 ⇒ x = -3<br>
+        x - 4 = 0 ⇒ x = 4<br>
+        The x-intercepts are at -3, -1, 2, and 4. Using this info we can make a rough draft sketch of the polynomial, shown below:<br>
+        <img src="images/pic2.png" alt="ex 2" id="pic2" /><hr>
+    </p>
+    <p>
+        Example 3: Find the zeros of the function.<br>
+        f(x) = (x + 2)(x + 5)(x - 1)(x - 5)<br>
+        Using the rule, we re-write each factor equal to zero, then solve the equation for x.<br>
+        Solution:<br>
+        x + 2 = 0 ⇒ x = -2<br>
+        x + 5 = 0 ⇒ x = -5<br>
+        x - 1 = 0 ⇒ x = 1<br>
+        x - 5 = 0 ⇒ x = 5<br>
+        The x-intercepts are at -5, -2, 1, and 5. Using this info we can make a rough draft sketch of the polynomial, shown below:<br>
+        <img src="images/pic3.png" alt="ex 3" id="pic3" /><hr>
+    </p>
+    <p>
+        Given the polynomial function, calculate its zeros.<br>
+        f(x) = (x - 7)(x + 2)(x - 3)<br>
+        Solution:<br>
+        The zeros are at:
+        <input type="text" id="a1" />
+        <input type="text" id="b1" />
+        <input type="text" id="c1" />
+        <button type="submit" id="myBtn" onclick="myCalc()">Submit</button>
+        <p id="demo"></p>
+    </p>
+    <hr>
+    <p>
+        Given the polynomial function, calculate its zeros.<br>
+        f(x) = (x + 4)(x - 1)(x - 6)(x + 3)<br>
+        Solution:<br>
+        The zeros are at:
+        <input type="text" id="d1" />
+        <input type="text" id="e1" />
+        <input type="text" id="f1" />
+        <input type="text" id="g1" />
+        <button type="submit" id="myBtn2" onclick="myCalc2()">Submit</button>
+        <p id="demo2"></p>
+        <hr>
+    </p>
+    <p>
+        Given the polynomial function, calculate its zeros.<br>
+        f(x) = (x - 8)(x - 6)(x + 2)(x + 4)<br>
+        Solution:<br>
+        The zeros are at:
+        <input type="text" id="h1" />
+        <input type="text" id="i1" />
+        <input type="text" id="j1" />
+        <input type="text" id="k1" />
+        <button type="submit" id="myBtn3" onclick="myCalc3()">Submit</button>
+        <p id="demo3"></p>
+        <hr>
+    </p>
+    <p>
+        Given the polynomial function, calculate its zeros.<br>
+        f(x) = (x + 3)(x - 7)(x + 8)<br>
+        Solution:<br>
+        The zeros are at:
+        <input type="text" id="l1" />
+        <input type="text" id="m1" />
+        <input type="text" id="n1" />
+        <button type="submit" id="myBtn4" onclick="myCalc4()">Submit</button>
+        <p id="demo4"></p>
+        <hr>
+    </p>
+    <script src="script.js"></script>
+    <footer>
+        ©2020 All Things Math<br>All Rights Reserved
+    </footer>
+</body>
+</html>
+
+
+
